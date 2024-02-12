@@ -12,7 +12,7 @@ html {
 }
 
 body::-webkit-scrollbar {
-    width: .5rem;
+    width: .8rem;
 }
 
 body::-webkit-scrollbar-track {
@@ -20,13 +20,18 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color: #D7FEFC;
+    background-color: #36cac3;
     border: 1px solid #29b9bc;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+}
+
+.container {
+    height: 100dvh;
+    overflow-y: scroll;
 }
 
 .header {
